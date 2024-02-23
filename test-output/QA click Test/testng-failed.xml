@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [QA click Test]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="tests.Parameterization">
+        <methods>
+          <include name="web"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- tests.Parameterization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [QA click Test] -->

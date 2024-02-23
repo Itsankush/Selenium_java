@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG_dataProvider">
+	<test name="Chrome_Test">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="env" value="DEV" />
+		<parameter name="os" value="Windows" />
+		<classes>
+			<class name="TestNG_dataProvider.Parameter"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

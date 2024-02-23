@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG_dataProvider]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sum(failed)">
+    <parameter name="browser" value="chrom"/>
+    <classes>
+      <class name="TestNG_dataProvider.Parameter">
+        <methods>
+          <include name="setup"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- TestNG_dataProvider.Parameter -->
+    </classes>
+  </test> <!-- Sum(failed) -->
+</suite> <!-- Failed suite [TestNG_dataProvider] -->
